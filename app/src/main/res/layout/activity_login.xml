@@ -90,7 +90,7 @@
         android:id="@+id/registerLink"
         android:layout_width="116dp"
         android:layout_height="31dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginBottom="64dp"
         android:background="#77DD00FF"
         android:backgroundTint="#D400FF"
         android:clickable="true"
@@ -116,4 +116,14 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/_19_sem_t_tulo" />
 
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btnGoogleSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Login com Google"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/registerLink"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
