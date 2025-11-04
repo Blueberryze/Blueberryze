@@ -43,7 +43,7 @@ class LoginActivity : AppCompatActivity() {
         emailEditText = findViewById(R.id.edit_text_email)
         passwordEditText = findViewById(R.id.edit_text_password)
         loginButton = findViewById(R.id.button_login)
-        registerLink = findViewById(R.id.registerLink)
+        registerLink = findViewById(     R.id.registerLink)
 
         val registerLink: TextView = findViewById(R.id.registerLink)
         registerLink.setOnClickListener {
